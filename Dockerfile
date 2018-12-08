@@ -2,7 +2,7 @@
 
 FROM axisk/nodejs
 
-RUN git clone git://github.com/etsy/statsd.git /usr/local/src/statsd
+RUN git clone git://github.com/audacious-io/statsd.git /usr/local/src/statsd
 
 ADD ./etc/config.js ./etc/default/statsd.js
 
